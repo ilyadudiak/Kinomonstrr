@@ -42,7 +42,7 @@
 
 				<div class="sitebar">
 					<h2>Поиск</h2>
-					<form  method="post"  action="#"  id="search_form">
+					<form  onsubmit="return false;" id="search_form">
 						<input type="search" name="search_field" placeholder="ваш запрос"/>
 						<input type="submit" class="btn" value="найти"/>
 
@@ -51,7 +51,7 @@
 				</div>
 					<div class="sitebar">
 						<h2>Вход</h2>
-						<form method="post" action="#" id="login">
+						<form onsubmit="return false;" id="login">
 							<input type="text" name="login_field" placeholder="логин">
 							<input type="password" name="password_field" placeholder="пароль">
 							<input type="submit" class="btn" value="вход">
